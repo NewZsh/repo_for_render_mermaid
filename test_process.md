@@ -1,15 +1,15 @@
 ```mermaid
 graph LR
-subgraph 小明家
-3(小明)
-4(小红)
-end
 subgraph 小胖家
 subgraph 小小
 5(小胖)
 6(小胖仔)
 end
 2(小丽)
+end
+subgraph 小明家
+3(小明)
+4(小红)
 end
 1(家庭关系)
 1--主人-->2
